@@ -1,0 +1,61 @@
+1) Transfer function:
+        20 s + 40
+-------------------------
+s^3 + 10.2 s^2 + 3 s + 10
+
+guad_bode = 4
+zeri =  -2
+poli = -10 , omega=1 xi=0.1
+picco_dB =   26.9745
+fr_picco =    0.9931
+modulo5  =    0.4010
+fase5    = -135.9805
+Freq0db  =    2.7436
+Fase0db  = -136.6279
+*****************************
+
+2) Transfer function:
+              3 s^2 + 27
+---------------------------------------
+0.2 s^4 + 1.2 s^3 + 1.8 s^2 + 4.8 s + 4
+
+guad_bode = 6.75 
+zeri =  omega=3  xi=0
+poli =  -5 , -1 , omega=2 xi=0
+picco_dB =   Inf
+modulo5  =    0.3170
+fase5    = -123.6901
+Freq0db  =    2.5440
+Fase0db  =   84.4912
+*****************************
+
+3) Transfer function:
+     100 s^2 - 100 s
+--------------------------
+3 s^3 + 27 s^2 + 69 s + 45
+
+guad_bode = -2.222
+zero =  0  ,  1
+poli =  -5 ,  -3 ,  -1
+picco_dB =   12.3958
+fr_picco =    3.8778
+modulo5  =    4.0423
+fase5    =    8.5836
+Freq0db  =    0.457
+Fase0dB  = -153
+*****************************
+
+4) Transfer function:
+
+     s^2 + 5 s + 4
+-----------------------
+4 s^4 + 40.1 s^3 + 2 s^2 + 10 s
+
+guad_bode = 0.4
+zero =  -4 , -1 
+poli =  0 , -10  , omega=0.5  xi=0.025
+picco_dB =   Inf
+modulo5  =    0.0059
+fase5    = -166.2454
+Freq0db  =    0.6582
+Fase0db  = -225.9364
